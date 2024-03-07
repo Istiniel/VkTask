@@ -6,12 +6,12 @@
 
 # Главная страница
 
-![](https://ibb.co/Vg96dSf)
+![](https://i.ibb.co/bPWnVPf/image.png)
 
 # Узнать случайный факт
 
-![](https://ibb.co/kX6gTZX)
+![](https://i.ibb.co/gSVsVGf/image.png)
 
 # Узнать возраст по имени
 
-![](https://ibb.co/NSxnsZS)
+![](https://i.ibb.co/2NqYygN/image.png)
