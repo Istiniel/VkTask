@@ -64,12 +64,14 @@ export function GetAgeMenu() {
 
   useEffect(() => {
     clearTimeout(timerId.current)
-    const timer = setTimeout(() => {
-      setIsLoading(true);
-      fetchAge();
-    }, 3000);
-    timerId.current = timer
-  }, [fetchAge, query])
+    if (!isInputInvalid) {
+      const timer = setTimeout(() => {
+        setIsLoading(true);
+        fetchAge();
+      }, 3000);
+      timerId.current = timer
+    }
+  }, [fetchAge, query, isInputInvalid])
 
   return (
     <SplitLayout className={styles.container}>
