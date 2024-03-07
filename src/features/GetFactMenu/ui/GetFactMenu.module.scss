@@ -1,0 +1,14 @@
+.container {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.submitButton {
+  align-self: center;
+}
+
+.textarea {
+  height: 100%
+}
